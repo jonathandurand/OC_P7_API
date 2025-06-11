@@ -22,8 +22,8 @@ jobs:
       - name: Configure AWS
         run: |
            aws configure set default.region us-east-1
-           aws configure set aws_access_key_id AKIAWBGQKJ5PN6VZOTO6
-           aws configure set aws_secret_access_key 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
+           aws configure set aws_access_key_id AKIAWBGQKJ5PPNMBEJUF
+           aws configure set aws_secret_access_key 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
       - name: Unit test connection API
         run: | 
            python test_API_unittest.py
