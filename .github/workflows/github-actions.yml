@@ -16,5 +16,6 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - name: Install librairies
-        run: pip install boto3 | pip install awscli
+        run: pip install boto3 |
+		  pip install awscli
       - run: echo "🍏 This job's status is ${{ job.status }}."
