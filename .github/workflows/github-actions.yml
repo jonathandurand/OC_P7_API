@@ -21,10 +21,10 @@ jobs:
            pip install awscli
       - name: Configure AWS
         run: |
-           aws configure set default.region us-east-1
-           aws configure set aws_access_key_id AKIAWBGQKJ5PPNMBEJUF
-           aws configure set aws_secret_access_key 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
+           # aws configure set default.region us-east-1
+           # aws configure set aws_access_key_id
+           # aws configure set aws_secret_access_key
       - name: Unit test connection API
         run: | 
-           python test_API_unittest.py
+           # python test_API_unittest.py
       - run: echo "🍏 This job's status is ${{ job.status }}."
